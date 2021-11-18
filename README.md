@@ -1,6 +1,6 @@
-# flutter_dialogflow_agent
+# NIT bot
 
-A new Flutter project.
+A chatbot that can help you to clear all the queries related to NIT kurukshetra.
 
 ## Getting Started
 
