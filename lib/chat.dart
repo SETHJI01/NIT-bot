@@ -71,7 +71,8 @@ class _ChatState extends State<Chat> {
     // TODO Get a Service account
     // Get a Service account
     final serviceAccount = ServiceAccount.fromString(
-        (await rootBundle.loadString('assets/credentials.json')));
+      //add credentials
+        (await rootBundle.loadString('assets/abc.json')));
     // Create a DialogflowGrpc Instance
     dialogflow = DialogflowGrpcV2Beta1.viaServiceAccount(serviceAccount);
   }
